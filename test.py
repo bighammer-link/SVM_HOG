@@ -133,7 +133,8 @@ def do_training(pos_path, pos_c, neg_path, neg_c):  # 训练产生w b alpha
     fw.write('\n')
 
 
+if __name__ == '__main__':
+    # 这个是训练用的
+    #do_training('images/train/pos', 30, 'images/train/neg', 30)
 
-# if __name__ == '__main__':
-     #do_training('images/train/pos', 30, 'images/train/neg', 30)  这个是训练用的
-     #test('images/test/luoding.jpg')
+    #test('images/test/luoding.jpg') 这个是测试用的，不这个功能已经UI中替代了
